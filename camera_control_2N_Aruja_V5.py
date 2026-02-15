@@ -92,7 +92,7 @@ def carregar_configuracoes(caminho_arquivo_txt):
         config['SALVAR_IMAGEM_CROPADA_DEBUG'] = temp_config['SALVAR_IMAGEM_CROPADA_DEBUG'].lower() == 'true'
         config['DIRETORIO_IMAGENS_CROPADAS'] = temp_config['DIRETORIO_IMAGENS_CROPADAS']
         config['CLP_PORT'] = 502
-        config['ENDERECO_BARREIRA_ENTRADA'] = 216
+        config['ENDERECO_BARREIRA_ENTRADA'] = 208
 
         print("--- Configurações carregadas do arquivo .txt ---")
         for key, value in config.items(): print(f"  {key}: {value}")
